@@ -16,7 +16,7 @@ public class CardOrderTest {
     }
 
     @Test
-    void correctTest() {
+    void formTest() {
         String date = generateDate(4);
         open("http://localhost:9999");
         $("span[data-test-id='city'] input").setValue("Санкт-Петербург");
